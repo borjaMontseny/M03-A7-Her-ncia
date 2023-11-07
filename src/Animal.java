@@ -8,10 +8,15 @@ public class Animal {
 
 	// CONSTRUCTORES
 	public Animal(String nom, int edat, double pes) {
-		super();
 		this.nom = nom;
 		this.edat = edat;
 		this.pes = pes;
+	}
+	
+	public Animal(String nom, int edat) {
+		this.nom = nom;
+		this.edat = edat;
+		this.pes = 1;
 	}
 
 	// MÉTODOS
@@ -38,10 +43,6 @@ public class Animal {
 
 	public void setPes(double pes) {
 		this.pes = pes;
-	}
-	
-	public String correr() {
-		return "L'animal terrestre està corrent.";
 	}
 
 	@Override
