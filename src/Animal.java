@@ -12,7 +12,7 @@ public class Animal {
 		this.edat = edat;
 		this.pes = pes;
 	}
-	
+
 	public Animal(String nom, int edat) {
 		this.nom = nom;
 		this.edat = edat;
@@ -21,27 +21,27 @@ public class Animal {
 
 	// MÉTODOS
 
-	public String getNom() {
+	String getNom() {
 		return nom;
 	}
 
-	public void setNom(String nom) {
+	void setNom(String nom) {
 		this.nom = nom;
 	}
 
-	public int getEdat() {
+	int getEdat() {
 		return edat;
 	}
 
-	public void setEdat(int edat) {
+	void setEdat(int edat) {
 		this.edat = edat;
 	}
 
-	public double getPes() {
+	double getPes() {
 		return pes;
 	}
 
-	public void setPes(double pes) {
+	void setPes(double pes) {
 		this.pes = pes;
 	}
 

@@ -9,7 +9,7 @@ public class Serp extends Terrestre {
 	}
 
 	// MÉTODOS
-	public String fesSo() {
-		return "Sssssssss!";
+	void fesSo() {
+		System.out.println("Sssssssss!");
 	}
 }

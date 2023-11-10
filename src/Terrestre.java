@@ -11,16 +11,16 @@ public class Terrestre extends Animal {
 	}
 
 	// MÉTODOS
-	public String getColorPel() {
+	String getColorPel() {
 		return colorPel;
 	}
 
-	public void setColorPel(String colorPel) {
+	void setColorPel(String colorPel) {
 		this.colorPel = colorPel;
 	}
 
-	public String correr() {
-		return "L'animal terrestre està corrent.";
+	void correr() {
+		System.out.println("L'animal terrestre esta corrent.");
 	}
 
 	@Override

@@ -9,8 +9,8 @@ public class Aquatic extends Animal {
 	}
 
 	// MÉTODOS
-	public String correr() {
-		return "L'animal marí està  nedant.";
+	void nedar() {
+		System.out.println("L'animal mari esta nedant.");
 	}
 
 	@Override
