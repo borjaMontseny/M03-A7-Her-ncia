@@ -2,16 +2,14 @@
 
 1. Tenint en compte tot el que has aprés sobre l’herència de classes, implementa les classes següents, per tal de tenir la següent estructura.
     
-    ```java
-    **Animal**
-    		*Aeri*
-    				Aliga
-    		*Terrestre*
-    				Lleona
-    				Serp
-    		*Aquatic*
-    				Dofi
-    ```
+- **Animal**
+    - *Aeri*
+        - Aliga
+    - *Terrestre*
+        - Lleona
+        - Serp
+    - *Aquàtic*
+        - Dofi
     
     Les classes han de tenir les propietats i mètodes que creguis oportuns per a cadascuna per tal que, almenys, passin el següent joc de proves (a la classe Tester).
     
